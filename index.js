@@ -33,10 +33,11 @@ Use getFinals to do the following:
 💡 HINT - you should be looking at the stage key inside of the objects
 */
 
-function getFinals(/* code here */) {
-    /* code here */
+function getFinals(array) {
+    const fifaFinalists = array.filter(stage => stage["Stage"] === 'Final');
+    return fifaFinalists;
  }
-
+console.log(`Of all of the games...`, getFinals(fifaData), `Here is the data for all of the teams that made it to the final stage.`);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
