@@ -59,7 +59,7 @@ x4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master 
 x5. cd into your repo
 x6. open the terminal in your vs code and type `npm install`
 x7. next type `npm run test` in your terminal
-8. Complete your work making regular commits to main/ master your codegrade score will update each time you make a push.
+x8. Complete your work making regular commits to main/ master your codegrade score will update each time you make a push.
 
 
 ### Task 2: Minimum Viable Product
