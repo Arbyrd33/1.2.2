@@ -8,6 +8,11 @@ Practice accessing data by console.log-ing the following pieces of data note.
 💡 HINT: You may want to filter the data first 😉*/
 
 //(a) Home Team name for 2014 world cup final
+const fifa14Cup = fifaData.filter(game => game["Year"] === 2014);
+console.log(`All 2014 games:`, fifa14Cup, `... And those were all the games played in 2014.`);
+
+const cup14Final = fifa14Cup.filter(stage => stage.Stage === 'Final');
+console.log(`Of those games, here were the finalists:`, cup14Final, `As you can see, ${cup14Final[0][`Home Team Name`]} was the home team for this game.`);
 
 //(b) Away Team name for 2014 world cup final
 
