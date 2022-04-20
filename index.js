@@ -18,11 +18,12 @@ console.log(`Of those games, here were the finalists:`, cup14Final, `As you can 
 console.log(`The away team was ${cup14Final[0][`Away Team Name`]}.`);
 
 //(c) Home Team goals for 2014 world cup final
+console.log(`The home team scored ${cup14Final[0][`Home Team Goals`]} point that year...`);
 
 //(d) Away Team goals for 2014 world cup final
-
+console.log(`And the visitors scored ${cup14Final[0][`Away Team Goals`]}.`);
 //(e) Winner of 2014 world cup final */
-
+console.log(`By the skin of their teeth, ${cup14Final[0][`Home Team Name`]} won this game. It was a wild ride.`);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use getFinals to do the following:
